@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+.App {
+  width: 100vw;
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+.sidenav {
+  float: left;
+  height: 100%;
+  width: 13%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 15px 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  background-color: #212121;
+}
+
+.sidenav a {
+  margin: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: inherit;
+}
+.page {
+  float: right;
+  width: 87%;
+}
+
+.home-wrapper {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-wrapper img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+  font-size: larger;
+}
+
+.input-container {
+  padding: 25px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+label {
+  display: inline-block;
+  white-space:nowrap;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.card-wrapper {
+  background-color: black;
+  color: white;
+  padding: 20px 10px 20px 18px;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+}
